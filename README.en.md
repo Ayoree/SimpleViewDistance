@@ -43,6 +43,7 @@ The plugin allows players to change their render distance on the server.
 min-distance: 2
 
 # Render distances by groups, granted by the permission 'group.<name>' (automatically granted to all groups in LuckPerms)
+# Players will not be able to set a value greater than that specified here
 # If a player belongs to multiple groups, the highest value will be selected
 distances:
   default: 12 # Default value for all players (Cannot be greater than 32)
